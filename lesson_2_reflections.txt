@@ -1,0 +1,29 @@
+Reflections
+
+What happens when you initialize a repository? Why do you need to do it?
+A directory containing data on git is created and some program must also be run that can compare the status of the changes to the files.
+
+This is necessary so that you can have version control and the files that contain the history can be stored in the directory
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can use the command git status and git diff, in this way see how many files have been modified and what has been modified, and thus analyze if those changes are a logical change or it is better to do two or more commits
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+When you want to make any change of any kind on the main project, where a functionality is added, modified or removed, but having the ease that in case it is not required to add this change to the final project, it could be used or can help you to get a version with particular characteristics of the same project.
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
